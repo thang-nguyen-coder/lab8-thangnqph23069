@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "946840657418",
+    "project_id": "md18101-57e1d",
+    "storage_bucket": "md18101-57e1d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:946840657418:android:30c3f863128566eace49f3",
+        "android_client_info": {
+          "package_name": "com.duyle.chatappfirebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7qb41LfwtGUKdCSEUvsK1FttG1bCnQlQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
