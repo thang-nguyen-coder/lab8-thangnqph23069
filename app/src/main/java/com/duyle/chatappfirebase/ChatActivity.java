@@ -10,6 +10,7 @@ import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.Toast;
 
+import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -27,7 +28,7 @@ public class ChatActivity extends AppCompatActivity {
     private Button buttonSend;
     private ListView listViewMessages;
 
-    //private FirebaseAuth firebaseAuth;
+    private FirebaseAuth firebaseAuth;
     private DatabaseReference databaseReference;
     private MessageAdapter messageAdapter;
     private List<Message> messageList;
@@ -37,7 +38,9 @@ public class ChatActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_chat);
 
-        //firebaseAuth = FirebaseAuth.getInstance();
+        firebaseAuth = FirebaseAuth.getInstance();
+        // co the lay ra cac thong tin user: email, username v.v.
+
         databaseReference = FirebaseDatabase.getInstance().getReference().child("phongchat1");
 
         editTextMessage = findViewById(R.id.editTextMessage);
@@ -52,11 +55,11 @@ public class ChatActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String messageText = editTextMessage.getText().toString().trim();
-                //String userId = firebaseAuth.getCurrentUser().getUid();
+                String userId = firebaseAuth.getCurrentUser().getEmail();
 
                 if (!messageText.isEmpty()) {
-                    //sendMessage(userId, messageText);
-                    sendMessage("md1801", messageText);
+                    sendMessage(userId, messageText);
+                    //sendMessage("md1801", messageText);
 
                     editTextMessage.setText("");
                 }
