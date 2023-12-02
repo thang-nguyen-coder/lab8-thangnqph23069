@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "946840657418",
-    "project_id": "md18101-57e1d",
-    "storage_bucket": "md18101-57e1d.appspot.com"
+    "project_number": "428464433731",
+    "project_id": "lab8mob403-6ca23",
+    "storage_bucket": "lab8mob403-6ca23.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:946840657418:android:30c3f863128566eace49f3",
+        "mobilesdk_app_id": "1:428464433731:android:55de9f62bf1e42a9bc42f6",
         "android_client_info": {
-          "package_name": "com.duyle.chatappfirebase"
+          "package_name": "com.thangnq.chatappfirebase"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyB7qb41LfwtGUKdCSEUvsK1FttG1bCnQlQ"
+          "current_key": "AIzaSyCBkDI0hpP9uYC0Xmg7tmJO3Al48TTNLUo"
         }
       ],
       "services": {

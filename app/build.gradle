@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'com.duyle.chatappfirebase'
+    namespace 'com.thangnq.chatappfirebase'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.duyle.chatappfirebase"
+        applicationId "com.thangnq.chatappfirebase"
         minSdk 24
         targetSdk 33
         versionCode 1

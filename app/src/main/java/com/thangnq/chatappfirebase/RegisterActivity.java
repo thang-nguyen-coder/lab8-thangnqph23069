@@ -1,4 +1,4 @@
-package com.duyle.chatappfirebase;
+package com.thangnq.chatappfirebase;
 
 
 import androidx.annotation.NonNull;
@@ -15,12 +15,8 @@ import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
-import com.google.firebase.FirebaseApp;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
-
-import java.util.Random;
-import java.util.UUID;
 
 public class RegisterActivity extends AppCompatActivity {
     EditText ed_email,ed_pass,edrepass;

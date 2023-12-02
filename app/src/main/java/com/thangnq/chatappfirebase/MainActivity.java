@@ -1,4 +1,4 @@
-package com.duyle.chatappfirebase;
+package com.thangnq.chatappfirebase;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
